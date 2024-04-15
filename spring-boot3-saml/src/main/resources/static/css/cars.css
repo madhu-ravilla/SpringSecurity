@@ -1,0 +1,12 @@
+body {
+	margin: 0px; 
+	padding: 0px;
+}
+
+/* Used for header */
+.project-header {
+	background-color: rgb(0, 128, 0); 
+	color: #e8e3e3;
+	padding: 10px; 
+}
+
