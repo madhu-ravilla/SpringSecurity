@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor entityID="http://www.okta.com/exkga2cpscguHaLS45d7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+	<md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDqDCCApCgAwIBAgIGAY615ZmIMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0zMDk2MzQ1MTEcMBoGCSqGSIb3DQEJ
+ARYNaW5mb0Bva3RhLmNvbTAeFw0yNDA0MDcwMDEwNDZaFw0zNDA0MDcwMDExNDZaMIGUMQswCQYD
+VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
+A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0zMDk2MzQ1MTEc
+MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAKSoF8n5CtBXjbmjSmFYSBZHLgGz+Afutm7LTdDZHpxcybZBu9dqZLncPNST/GFkTreWcUAn
+VxC71VUEdA6kBiHs/u6GnIue68G6prcg6yZC01NxPc7NwyU3D338Dt5BXVuBDs7IJal0KKjTUpIF
+bWtWq7xKjliJzCYvuuSGWV7xTSt44Gq/tbnFGRM/x0Obs8Hsfmk3a5hWho6azpYEIOYNjAg1KJda
+MpDI890w+eaxZTB88hnQVtUev9AlFgSe5veziM28ITsAueCb73zSt8CqlmwlDEmShJ3lWnP5Jook
+cn/+psL5gvPtXDnXz1RDQSy/Mbs69Y1X2Q4Yy1FPOC8CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+i3ZdBu68wCjcb0fKwUJ6dd+DoLCqwBPdt3zJ9iPJeqtVBUp3K5Q7lodH+01NPKaTBP60kqdh25zk
+uomOFEKsW2qOCX+5wGJ0IrWRx+4xreEruAJ/dVwjMxd2r1z78f7bY9lsvTgIGcYB5SNQCWqLDe2e
+MPUEH1odOuvmAOgHC1BaZnM8DcL/XR8WEvBhWk3TbZNi9khDqBpL7+oTmwn/W1lqDfgJJyNKPbEY
+gxpYIohhZblur184QkATmn4Nkpa9yDNwKXMkbInSL9zKv0n33gJeLg1VKczobczOj59j7YX+0pku
+R7qgJ33pwook9xVU2vN7jeAg1yXjo9MzatgXKQ==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-30963451.okta.com/app/dev-30963451_samlappproject02_1/exkga2cpscguHaLS45d7/sso/saml"/>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-30963451.okta.com/app/dev-30963451_samlappproject02_1/exkga2cpscguHaLS45d7/sso/saml"/>
+	</md:IDPSSODescriptor>
+</md:EntityDescriptor>
